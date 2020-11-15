@@ -1,0 +1,1216 @@
+[
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SPEED",
+    "name": { "str": "Sentinel Speed" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "FLEET", "FLEET2", "PARKOUR", "QUICK" ],
+	"changes_to": [ "SENTINEL_SPEED2" ],
+    "movecost_flatground_modifier": 0.85,
+	"movecost_modifier": 0.85,
+	"movecost_obstacle_modifier": 0.85,
+	"movecost_swim_modifier": 0.85,
+    "dodge_modifier": 1,
+	"attackcost_modifier": 0.85,
+	"speed_modifier": 1.15
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SPEED2",
+    "name": { "str": "Sentinel Speed 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "FLEET", "FLEET2", "PARKOUR", "QUICK" ],
+    "prereqs": [ "SENTINEL_SPEED" ],
+	"changes_to": [ "SENTINEL_SPEED3" ],
+    "movecost_flatground_modifier": 0.7,
+	"movecost_modifier": 0.7,
+	"movecost_obstacle_modifier": 0.7,
+	"movecost_swim_modifier": 0.7,
+    "dodge_modifier": 2,
+	"attackcost_modifier": 0.7,
+	"speed_modifier": 1.3
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SPEED3",
+    "name": { "str": "Sentinel Speed 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "FLEET", "FLEET2", "PARKOUR", "QUICK" ],
+    "prereqs": [ "SENTINEL_SPEED2" ],
+	"changes_to": [ "SENTINEL_SPEED4" ],
+    "movecost_flatground_modifier": 0.55,
+	"movecost_modifier": 0.55,
+	"movecost_obstacle_modifier": 0.55,
+	"movecost_swim_modifier": 0.55,
+    "dodge_modifier": 3,
+	"attackcost_modifier": 0.55,
+	"speed_modifier": 1.45
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SPEED4",
+    "name": { "str": "Sentinel Prime Speed" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "FLEET", "FLEET2", "PARKOUR", "QUICK" ],
+    "prereqs": [ "SENTINEL_SPEED3" ],
+    "movecost_flatground_modifier": 0.4,
+	"movecost_modifier": 0.4,
+	"movecost_obstacle_modifier": 0.4,
+	"movecost_swim_modifier": 0.4,
+    "dodge_modifier": 4,
+	"attackcost_modifier": 0.4,
+	"speed_modifier": 1.6
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SENSES",
+    "name": { "str": "Sentinel Senses" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "GOODHEARING", "EAGLEEYED" ],
+	"changes_to": [ "SENTINEL_SENSES2" ],
+    "hearing_modifier": 1.25,
+    "overmap_sight": 5
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SENSES2",
+    "name": { "str": "Sentinel Senses 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "GOODHEARING", "EAGLEEYED" ],
+    "prereqs": [ "SENTINEL_SENSES" ],
+	"changes_to": [ "SENTINEL_SENSES3" ],
+    "hearing_modifier": 1.50,
+    "overmap_sight": 8
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SENSES3",
+    "name": { "str": "Sentinel Senses 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "GOODHEARING", "EAGLEEYED" ],
+    "prereqs": [ "SENTINEL_SENSES2" ],
+	"changes_to": [ "SENTINEL_SENSES4" ],
+    "hearing_modifier": 1.75,
+    "overmap_sight": 12
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_SENSES4",
+    "name": { "str": "Sentinel Senses 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "GOODHEARING", "EAGLEEYED" ],
+    "prereqs": [ "SENTINEL_SENSES3" ],
+    "hearing_modifier": 2.00,
+    "overmap_sight": 15
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_CONDITIONING",
+    "name": { "str": "Sentinel Conditioning" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "wet_protection": [
+      { "part": "HEAD", "ignored": 5 },
+      { "part": "LEG_L", "ignored": 5 },
+      { "part": "LEG_R", "ignored": 5 },
+      { "part": "FOOT_L", "ignored": 5 },
+      { "part": "FOOT_R", "ignored": 5 },
+      { "part": "ARM_L", "ignored": 5 },
+      { "part": "ARM_R", "ignored": 5 },
+      { "part": "HAND_L", "ignored": 5 },
+      { "part": "HAND_R", "ignored": 5 },
+      { "part": "TORSO", "ignored": 5 },
+	  { "part": "MOUTH", "ignored": 5 }
+    ],
+	"cancels": [ "OUTDOORSMAN" ],
+	"changes_to": [ "SENTINEL_CONDITIONING2" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_CONDITIONING2",
+    "name": { "str": "Sentinel Conditioning 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "wet_protection": [
+      { "part": "HEAD", "ignored": 10 },
+      { "part": "LEG_L", "ignored": 10 },
+      { "part": "LEG_R", "ignored": 10 },
+      { "part": "FOOT_L", "ignored": 10 },
+      { "part": "FOOT_R", "ignored": 10 },
+      { "part": "ARM_L", "ignored": 10 },
+      { "part": "ARM_R", "ignored": 10 },
+      { "part": "HAND_L", "ignored": 10 },
+      { "part": "HAND_R", "ignored": 10 },
+      { "part": "TORSO", "ignored": 10 },
+	  { "part": "MOUTH", "ignored": 10 }
+    ],
+	"cancels": [ "OUTDOORSMAN" ],
+    "prereqs": [ "SENTINEL_CONDITIONING" ],
+	"changes_to": [ "SENTINEL_CONDITIONING3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_CONDITIONING3",
+    "name": { "str": "Sentinel Conditioning 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "wet_protection": [
+      { "part": "HEAD", "ignored": 15 },
+      { "part": "LEG_L", "ignored": 15 },
+      { "part": "LEG_R", "ignored": 15 },
+      { "part": "FOOT_L", "ignored": 15 },
+      { "part": "FOOT_R", "ignored": 15 },
+      { "part": "ARM_L", "ignored": 15 },
+      { "part": "ARM_R", "ignored": 15 },
+      { "part": "HAND_L", "ignored": 15 },
+      { "part": "HAND_R", "ignored": 15 },
+      { "part": "TORSO", "ignored": 15 },
+	  { "part": "MOUTH", "ignored": 15 }
+    ],
+	"cancels": [ "OUTDOORSMAN" ],
+	"prereqs": [ "SENTINEL_CONDITIONING2" ],
+	"changes_to": [ "SENTINEL_CONDITIONING4" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_CONDITIONING4",
+    "name": { "str": "Sentinel Conditioning 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "wet_protection": [
+      { "part": "HEAD", "ignored": 20 },
+      { "part": "LEG_L", "ignored": 20 },
+      { "part": "LEG_R", "ignored": 20 },
+      { "part": "FOOT_L", "ignored": 20 },
+      { "part": "FOOT_R", "ignored": 20 },
+      { "part": "ARM_L", "ignored": 20 },
+      { "part": "ARM_R", "ignored": 20 },
+      { "part": "HAND_L", "ignored": 20 },
+      { "part": "HAND_R", "ignored": 20 },
+      { "part": "TORSO", "ignored": 20 },
+	  { "part": "MOUTH", "ignored": 20 }
+    ],
+	"cancels": [ "OUTDOORSMAN" ],
+	"prereqs": [ "SENTINEL_CONDITIONING3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_ARMOR",
+    "name": { "str": "Sentinel Armor" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "cancels": [ "THICKSKIN", "TOUGH", "TOUGH2", "TOUGH3" ],
+	"changes_to": [ "SENTINEL_ARMOR2" ],
+    "armor": [
+      {
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
+        "cut": 2,
+        "bash": 2,
+        "stab": 2
+      }
+    ],
+    "hp_modifier": 0.2,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_ARMOR2",
+    "name": { "str": "Sentinel Armor 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "cancels": [ "THICKSKIN", "TOUGH", "TOUGH2", "TOUGH3" ],
+	"prereqs": [ "SENTINEL_ARMOR" ],
+	"changes_to": [ "SENTINEL_ARMOR3" ],
+    "armor": [
+      {
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
+        "cut": 3,
+        "bash": 3,
+        "stab": 3
+      }
+    ],
+    "hp_modifier": 0.3,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_ARMOR3",
+    "name": { "str": "Sentinel Armor 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "cancels": [ "THICKSKIN", "TOUGH", "TOUGH2", "TOUGH3" ],
+	"prereqs": [ "SENTINEL_ARMOR2" ],
+	"changes_to": [ "SENTINEL_ARMOR4" ],
+    "armor": [
+      {
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
+        "cut": 4,
+        "bash": 4,
+        "stab": 4
+      }
+    ],
+    "hp_modifier": 0.4,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_ARMOR4",
+    "name": { "str": "Sentinel Armor 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "cancels": [ "THICKSKIN", "TOUGH", "TOUGH2", "TOUGH3" ],
+	"prereqs": [ "SENTINEL_ARMOR3" ],
+    "armor": [
+      {
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
+        "cut": 5,
+        "bash": 5,
+        "stab": 5
+      }
+    ],
+    "hp_modifier": 0.5,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_REGEN",
+    "name": { "str": "Sentinel Regeneration" },
+    "points": 2,
+    "description": "Placeholder Descriptio",
+    "types": [ "HEALING" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"prereqs": [ "SENTINEL_HUNGER" ],
+    "cancels": [ "FASTHEALER", "FASTHEALER2", "REGEN" ],
+	"changes_to": [ "SENTINEL_REGEN2" ],
+    "healing_awake": 1.0,
+    "healing_resting": 0.5,
+    "mending_modifier": 8.0
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_REGEN2",
+    "name": { "str": "Sentinel Regeneration 2" },
+    "points": 4,
+    "description": "Placeholder Descriptio",
+    "types": [ "HEALING" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"prereqs": [ "SENTINEL_HUNGER", "SENTINEL_REGEN" ],
+    "cancels": [ "FASTHEALER", "FASTHEALER2", "REGEN" ],
+	"changes_to": [ "SENTINEL_REGEN3" ],
+    "healing_awake": 1.5,
+    "healing_resting": 1.0,
+    "mending_modifier": 12.0
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_REGEN3",
+    "name": { "str": "Sentinel Regeneration 3" },
+    "points": 6,
+    "description": "Placeholder Descriptio",
+    "types": [ "HEALING" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"prereqs": [ "SENTINEL_HUNGER", "SENTINEL_REGEN2" ],
+    "cancels": [ "FASTHEALER", "FASTHEALER2", "REGEN" ],
+	"changes_to": [ "SENTINEL_REGEN4" ],
+    "healing_awake": 2.0,
+    "healing_resting": 1.5,
+    "mending_modifier": 16.0
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_REGEN4",
+    "name": { "str": "Sentinel Regeneration 4" },
+    "points": 8,
+    "description": "Placeholder Descriptio",
+    "types": [ "HEALING" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"prereqs": [ "SENTINEL_HUNGER", "SENTINEL_REGEN3" ],
+    "cancels": [ "FASTHEALER", "FASTHEALER2", "REGEN" ],
+    "healing_awake": 2.5,
+    "healing_resting": 2.0,
+    "mending_modifier": 20.0
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PACKMULE",
+    "name": { "str": "Sentinel Packmule" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "obtain_cost_multiplier": 0.9,
+    "weight_capacity_modifier": 1.35,
+	"cancels": [ "PACKMULE", "STRONGBACK" ],
+	"changes_to": [ "SENTINEL_PACKMULE2" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PACKMULE2",
+    "name": { "str": "Sentinel Packmule 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "obtain_cost_multiplier": 0.8,
+    "weight_capacity_modifier": 1.50,
+	"cancels": [ "PACKMULE", "STRONGBACK" ],
+	"prereqs": [ "SENTINEL_PACKMULE" ],
+	"changes_to": [ "SENTINEL_PACKMULE3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PACKMULE3",
+    "name": { "str": "Sentinel Packmule 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "obtain_cost_multiplier": 0.7,
+    "weight_capacity_modifier": 1.65,
+	"cancels": [ "PACKMULE", "STRONGBACK" ],
+	"prereqs": [ "SENTINEL_PACKMULE2" ],
+	"changes_to": [ "SENTINEL_PACKMULE4" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PACKMULE4",
+    "name": { "str": "Sentinel Packmule 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "obtain_cost_multiplier": 0.6,
+    "weight_capacity_modifier": 1.80,
+	"cancels": [ "PACKMULE", "STRONGBACK" ],
+	"prereqs": [ "SENTINEL_PACKMULE3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_MEMORY",
+    "name": { "str": "Sentienl Memory" },
+    "points": 2,
+    "description": "You have an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual, and you can remember more terrain.",
+    "map_memory_capacity_multiplier": 2,
+    "skill_rust_multiplier": 1.33,
+    "cancels": [ "GOODMEMORY" ],
+	"changes_to": [ "SENTINEL_MEMORY2" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_MEMORY2",
+    "name": { "str": "Sentienl Memory 2" },
+    "points": 4,
+    "description": "You have an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual, and you can remember more terrain.",
+    "map_memory_capacity_multiplier": 3,
+    "skill_rust_multiplier": 1.66,
+    "cancels": [ "GOODMEMORY" ],
+	"prereqs": [ "SENTINEL_MEMORY" ],
+	"changes_to": [ "SENTINEL_MEMORY3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_MEMORY3",
+    "name": { "str": "Sentienl Memory 3" },
+    "points": 6,
+    "description": "You have an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual, and you can remember more terrain.",
+    "map_memory_capacity_multiplier": 4,
+    "skill_rust_multiplier": 2.0,
+    "cancels": [ "GOODMEMORY" ],
+	"prereqs": [ "SENTINEL_MEMORY2" ],
+	"changes_to": [ "SENTINEL_MEMORY4" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_MEMORY4",
+    "name": { "str": "Sentienl Memory 4" },
+    "points": 8,
+    "description": "You have an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual, and you can remember more terrain.",
+    "map_memory_capacity_multiplier": 5,
+    "skill_rust_multiplier": 2.33,
+    "cancels": [ "GOODMEMORY" ],
+	"prereqs": [ "SENTINEL_MEMORY3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_WAKEFULNESS",
+    "name": { "str": "Sleepless Watch" },
+    "points": 2,
+    "description": "Placeholder",
+    "types": [ "SLEEP" ],
+    "cancels": [ "WAKEFUL", "WAKEFUL2", "WAKEFUL3" ],
+	"changes_to": [ "SENTINEL_WAKEFULNESS2" ],
+    "fatigue_modifier": -0.25,
+    "fatigue_regen_modifier": 0.25,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_WAKEFULNESS2",
+    "name": { "str": "Sleepless Watch 2" },
+    "points": 4,
+    "description": "Placeholder",
+    "types": [ "SLEEP" ],
+    "cancels": [ "WAKEFUL", "WAKEFUL2", "WAKEFUL3" ],
+	"prereqs": [ "SENTINEL_WAKEFULNESS" ],
+	"changes_to": [ "SENTINEL_WAKEFULNESS3" ],
+    "fatigue_modifier": -0.50,
+    "fatigue_regen_modifier": 0.50,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_WAKEFULNESS3",
+    "name": { "str": "Sleepless Watch 3" },
+    "points": 6,
+    "description": "Placeholder",
+    "types": [ "SLEEP" ],
+    "cancels": [ "WAKEFUL", "WAKEFUL2", "WAKEFUL3" ],
+	"prereqs": [ "SENTINEL_WAKEFULNESS2" ],
+	"changes_to": [ "SENTINEL_WAKEFULNESS4" ],
+    "fatigue_modifier": -1.0,
+    "fatigue_regen_modifier": 1.0,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_WAKEFULNESS4",
+    "name": { "str": "Sleepless Watch 4" },
+    "points": 8,
+    "description": "Placeholder",
+    "types": [ "SLEEP" ],
+    "cancels": [ "WAKEFUL", "WAKEFUL2", "WAKEFUL3" ],
+	"prereqs": [ "SENTINEL_WAKEFULNESS3" ],
+    "fatigue_modifier": -2.0,
+    "fatigue_regen_modifier": 2.0,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STEALTH",
+    "name": { "str": "Sentinel Stealth" },
+    "points": 2,
+    "description": "Placeholder",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "LIGHTSTEP", "WEAKSCENT" ],
+	"changes_to": [ "SENTINEL_STEALTH2" ],
+    "noise_modifier": 0.5,
+    "scent_intensity": 300
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STEALTH2",
+    "name": { "str": "Sentinel Stealth 2" },
+    "points": 4,
+    "description": "Placeholder",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "LIGHTSTEP", "WEAKSCENT" ],
+	"prereqs": [ "SENTINEL_STEALTH" ],
+	"changes_to": [ "SENTINEL_STEALTH3" ],
+    "noise_modifier": 0.25,
+    "scent_intensity": 150
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STEALTH3",
+    "name": { "str": "Sentinel Stealth 3" },
+    "points": 6,
+    "description": "Placeholder",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "LIGHTSTEP", "WEAKSCENT" ],
+	"prereqs": [ "SENTINEL_STEALTH2" ],
+	"changes_to": [ "SENTINEL_STEALTH4" ],
+    "noise_modifier": 0.1,
+    "scent_intensity": 75
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STEALTH4",
+    "name": { "str": "Sentinel Stealth 4" },
+    "points": 8,
+    "description": "Placeholder",
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "cancels": [ "LIGHTSTEP", "WEAKSCENT" ],
+	"prereqs": [ "SENTINEL_STEALTH3" ],
+    "noise_modifier": 0.05,
+    "scent_intensity": 35
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PRESENCE",
+    "name": { "str": "Sentinel Presence" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "social_modifiers": { "intimidate": 15, "lie": 40 },
+    "cancels": [ "TERRIFYING", "LIAR" ],
+	"changes_to": [ "SENTINEL_PRESENCE2" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PRESENCE2",
+    "name": { "str": "Sentinel Presence 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "social_modifiers": { "intimidate": 20, "lie": 55 },
+    "cancels": [ "TERRIFYING", "LIAR" ],
+	"prereqs": [ "SENTINEL_PRESENCE" ],
+	"changes_to": [ "SENTINEL_PRESENCE3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PRESENCE3",
+    "name": { "str": "Sentinel Presence 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "social_modifiers": { "intimidate": 25, "lie": 70 },
+    "cancels": [ "TERRIFYING", "LIAR" ],
+	"prereqs": [ "SENTINEL_PRESENCE2" ],
+	"changes_to": [ "SENTINEL_PRESENCE4" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_PRESENCE4",
+    "name": { "str": "Sentinel Presence 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "social_modifiers": { "intimidate": 30, "lie": 85 },
+    "cancels": [ "TERRIFYING", "LIAR" ],
+	"prereqs": [ "SENTINEL_PRESENCE3" ],
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_BEAUTY",
+    "name": { "str": "Trancendental" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "prereqs": [ "BEAUTIFUL3", "SENTINEL_REGEN" ],
+    "social_modifiers": { "persuade": 20 },
+    "visibility": 15,
+    "ugliness": -15,
+	"category": [ "SUPER_SOLDIER_CATEGORY" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_STR1",
+    "name": { "str": "Sentinel Strenght" },
+    "points": 1,
+    "description": "Placeholder Description",
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4", "STR_ALPHA" ],
+	"changes_to": [ "SENTINAL_STR2" ],
+    "passive_mods": { "str_mod": 1 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_STR2",
+    "name": { "str": "Sentinel Strenght 2" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4", "STR_ALPHA" ],
+	"prereqs": [ "SENTINAL_STR1" ],
+	"changes_to": [ "SENTINAL_STR3" ],
+    "passive_mods": { "str_mod": 2 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_STR3",
+    "name": { "str": "Sentinel Strenght 3" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4", "STR_ALPHA" ],
+	"prereqs": [ "SENTINAL_STR2" ],
+	"changes_to": [ "SENTINAL_STR4" ],
+    "passive_mods": { "str_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_STR4",
+    "name": { "str": "Sentinel Strenght 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+	"cancels": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4", "STR_ALPHA" ],
+	"prereqs": [ "SENTINAL_STR3" ],
+	"changes_to": [ "SENTINAL_STR5" ],
+    "passive_mods": { "str_mod": 8 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_STR5",
+    "name": { "str": "Sentinel Prime Strenght" },
+    "points": 10,
+    "description": "Placeholder Description",
+	"cancels": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4", "STR_ALPHA" ],
+	"prereqs": [ "SENTINAL_STR4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "str_mod": 12 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_DEX1",
+    "name": { "str": "Sentinel Dexterity" },
+    "points": 1,
+    "description": "Placeholder Description",
+	"cancels": [ "DEX_UP", "DEX_UP_2", "DEX_UP_3", "DEX_UP_4", "DEX_ALPHA" ],
+	"changes_to": [ "SENTINAL_DEX2" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "dex_mod": 1 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_DEX2",
+    "name": { "str": "Sentinel Dexterity 2" },
+    "points": 2,
+    "description": "Placeholder Description",
+	"cancels": [ "DEX_UP", "DEX_UP_2", "DEX_UP_3", "DEX_UP_4", "DEX_ALPHA" ],
+	"prereqs": [ "SENTINAL_DEX1" ],
+	"changes_to": [ "SENTINAL_DEX3" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "dex_mod": 2 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_DEX3",
+    "name": { "str": "Sentinel Dexterity 3" },
+    "points": 4,
+    "description": "Placeholder Description",
+	"cancels": [ "DEX_UP", "DEX_UP_2", "DEX_UP_3", "DEX_UP_4", "DEX_ALPHA" ],
+	"prereqs": [ "SENTINAL_DEX2" ],
+	"changes_to": [ "SENTINAL_DEX4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "dex_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_DEX4",
+    "name": { "str": "Sentinel Dexterity 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+	"cancels": [ "DEX_UP", "DEX_UP_2", "DEX_UP_3", "DEX_UP_4", "DEX_ALPHA" ],
+	"prereqs": [ "SENTINAL_DEX3" ],
+	"changes_to": [ "SENTINAL_DEX5" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "dex_mod": 8 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_DEX5",
+    "name": { "str": "Sentinel Prime Dexterity" },
+    "points": 10,
+    "description": "Placeholder Description",
+	"cancels": [ "DEX_UP", "DEX_UP_2", "DEX_UP_3", "DEX_UP_4", "DEX_ALPHA" ],
+	"prereqs": [ "SENTINAL_DEX4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "dex_mod": 12 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_INT1",
+    "name": { "str": "Sentinel Intelligence" },
+    "points": 1,
+    "description": "Placeholder Description",
+	"cancels": [ "INT_UP", "INT_UP_2", "INT_UP_3", "INT_UP_4", "INT_ALPHA" ],
+	"changes_to": [ "SENTINAL_INT2" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "int_mod": 1 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_INT2",
+    "name": { "str": "Sentinel Intelligence 2" },
+    "points": 2,
+    "description": "Placeholder Description",
+	"cancels": [ "INT_UP", "INT_UP_2", "INT_UP_3", "INT_UP_4", "INT_ALPHA" ],
+	"prereqs": [ "SENTINAL_INT1" ],
+	"changes_to": [ "SENTINAL_INT3" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "int_mod": 2 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_INT3",
+    "name": { "str": "Sentinel Intelligence 3" },
+    "points": 4,
+    "description": "Placeholder Description",
+	"cancels": [ "INT_UP", "INT_UP_2", "INT_UP_3", "INT_UP_4", "INT_ALPHA" ],
+	"prereqs": [ "SENTINAL_INT2" ],
+	"changes_to": [ "SENTINAL_INT4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "int_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_INT4",
+    "name": { "str": "Sentinel Intelligence 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+	"cancels": [ "INT_UP", "INT_UP_2", "INT_UP_3", "INT_UP_4", "INT_ALPHA" ],
+	"prereqs": [ "SENTINAL_INT3" ],
+	"changes_to": [ "SENTINAL_INT5" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "int_mod": 8 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_INT5",
+    "name": { "str": "Sentinel Prime Intelligence" },
+    "points": 10,
+    "description": "Placeholder Description",
+	"cancels": [ "INT_UP", "INT_UP_2", "INT_UP_3", "INT_UP_4", "INT_ALPHA" ],
+	"prereqs": [ "SENTINAL_INT4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "int_mod": 12 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_PER1",
+    "name": { "str": "Sentinel Perception" },
+    "points": 1,
+    "description": "Placeholder Description",
+	"cancels": [ "PER_UP", "PER_UP_2", "PER_UP_3", "PER_UP_4", "PER_ALPHA" ],
+	"changes_to": [ "SENTINAL_PER2" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "per_mod": 1 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_PER2",
+    "name": { "str": "Sentinel Perception 2" },
+    "points": 2,
+    "description": "Placeholder Description",
+	"cancels": [ "PER_UP", "PER_UP_2", "PER_UP_3", "PER_UP_4", "PER_ALPHA" ],
+	"prereqs": [ "SENTINAL_PER1" ],
+	"changes_to": [ "SENTINAL_PER3" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "per_mod": 2 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_PER3",
+    "name": { "str": "Sentinel Perception 3" },
+    "points": 4,
+    "description": "Placeholder Description",
+	"cancels": [ "PER_UP", "PER_UP_2", "PER_UP_3", "PER_UP_4", "PER_ALPHA" ],
+	"prereqs": [ "SENTINAL_PER2" ],
+	"changes_to": [ "SENTINAL_PER4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "per_mod": 4 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_PER4",
+    "name": { "str": "Sentinel Perception 4" },
+    "points": 8,
+    "description": "Placeholder Description",
+	"cancels": [ "PER_UP", "PER_UP_2", "PER_UP_3", "PER_UP_4", "PER_ALPHA" ],
+	"prereqs": [ "SENTINAL_PER3" ],
+	"changes_to": [ "SENTINAL_PER5" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "per_mod": 8 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINAL_PER5",
+    "name": { "str": "Sentinel Prime Perception" },
+    "points": 10,
+    "description": "Placeholder Description",
+	"cancels": [ "PER_UP", "PER_UP_2", "PER_UP_3", "PER_UP_4", "PER_ALPHA" ],
+	"prereqs": [ "SENTINAL_PER4" ],
+    "threshreq": [ "SUPER_SOLDIER_THRESH" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "passive_mods": { "per_mod": 12 }
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_HUNGER",
+    "name": { "str": "Sentinel Metabolism" },
+    "points": 2,
+    "description": "Placeholder Description",
+    "types": [ "METABOLISM" ],
+	"cancels": [ "HUNGER", "HUNGER2", "HUNGER3", "MET_RAT" ],
+	"changes_to": [ "SENTINEL_HUNGER2" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "metabolism_modifier": 0.25,
+    "stamina_regen_modifier": 0.25
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_HUNGER2",
+    "name": { "str": "Sentinel Metabolism 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+    "types": [ "METABOLISM" ],
+	"cancels": [ "HUNGER", "HUNGER2", "HUNGER3", "MET_RAT" ],
+	"prereqs": [ "SENTINEL_HUNGER" ],
+	"changes_to": [ "SENTINEL_HUNGER3" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "metabolism_modifier": 0.75,
+    "stamina_regen_modifier": 0.5
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_HUNGER3",
+    "name": { "str": "Sentinel Prime Metabolism" },
+    "points": 6,
+    "description": "Placeholder Description",
+    "types": [ "METABOLISM" ],
+	"cancels": [ "HUNGER", "HUNGER2", "HUNGER3", "MET_RAT" ],
+	"prereqs": [ "SENTINEL_HUNGER2" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "metabolism_modifier": 1.5,
+    "stamina_regen_modifier": 0.75
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STAMINA",
+    "name": { "str": "Sentinel Stamina" },
+    "points": 2,
+    "description": "Placeholder Description",
+	"cancels": [ "GOODCARDIO", "GOODCARDIO2" ],
+	"changes_to": [ "SENTINEL_STAMINA2" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "max_stamina_modifier": 1.25
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STAMINA2",
+    "name": { "str": "Sentinel Stamina 2" },
+    "points": 4,
+    "description": "Placeholder Description",
+	"cancels": [ "GOODCARDIO", "GOODCARDIO2" ],
+	"prereqs": [ "SENTINEL_STAMINA" ],
+	"changes_to": [ "SENTINEL_STAMINA3" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "max_stamina_modifier": 1.50
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STAMINA3",
+    "name": { "str": "Sentinel Stamina 3" },
+    "points": 6,
+    "description": "Placeholder Description",
+	"cancels": [ "GOODCARDIO", "GOODCARDIO2" ],
+	"prereqs": [ "SENTINEL_STAMINA2" ],
+	"changes_to": [ "SENTINEL_STAMINA4" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "max_stamina_modifier": 1.75
+  },
+  {
+    "type": "mutation",
+    "id": "SENTINEL_STAMINA4",
+    "name": { "str": "Sentinel Prime Stamina" },
+    "points": 8,
+    "description": "Placeholder Description",
+	"cancels": [ "GOODCARDIO", "GOODCARDIO2" ],
+	"prereqs": [ "SENTINEL_STAMINA3" ],
+    "category": [ "SUPER_SOLDIER_CATEGORY" ],
+    "max_stamina_modifier": 2.00
+  },
+  {
+    "type": "mutation",
+    "id": "EASYSLEEPER",
+    "copy-from": "EASYSLEEPER",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PAINRESIST",
+    "copy-from": "PAINRESIST",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NIGHTVISION",
+    "copy-from": "NIGHTVISION",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "POISRESIST",
+    "copy-from": "POISRESIST",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "FASTLEARNER",
+    "copy-from": "FASTLEARNER",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DEFT",
+    "copy-from": "DEFT",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "TOLERANCE",
+    "copy-from": "TOLERANCE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NONADDICTIVE",
+    "copy-from": "NONADDICTIVE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DISRESISTANT",
+    "copy-from": "DISRESISTANT",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ADRENALINE",
+    "copy-from": "ADRENALINE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SELFAWARE",
+    "copy-from": "SELFAWARE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ROBUST",
+    "copy-from": "ROBUST",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PSYCHOPATH",
+    "copy-from": "PSYCHOPATH",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "KILLER",
+    "copy-from": "KILLER",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ANTIJUNK",
+    "copy-from": "ANTIJUNK",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ANIMALDISCORD",
+    "copy-from": "ANIMALDISCORD",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NIGHTVISION2",
+    "copy-from": "NIGHTVISION2",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NIGHTVISION3",
+    "copy-from": "NIGHTVISION3",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "INFRARED",
+    "copy-from": "INFRARED",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "RADIOGENIC",
+    "copy-from": "RADIOGENIC",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DISIMMUNE",
+    "copy-from": "DISIMMUNE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "INFRESIST",
+    "copy-from": "INFRESIST",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "INFIMMUNE",
+    "copy-from": "INFIMMUNE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PARAIMMUNE",
+    "copy-from": "PARAIMMUNE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SAPROVORE",
+    "copy-from": "SAPROVORE",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "POISRESIST",
+    "copy-from": "POISRESIST",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "EATPOISON",
+    "copy-from": "EATPOISON",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ], "threshreq": [ "SUPER_SOLDIER_THRESH" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "EATDEAD",
+    "copy-from": "EATDEAD",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ], "threshreq": [ "SUPER_SOLDIER_THRESH" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "STRONGSTOMACH",
+    "copy-from": "STRONGSTOMACH",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PAINREC1",
+    "copy-from": "PAINREC1",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PAINREC2",
+    "copy-from": "PAINREC2",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PAINREC3",
+    "copy-from": "PAINREC3",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NOPAIN",
+    "copy-from": "NOPAIN",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ], "threshreq": [ "SUPER_SOLDIER_THRESH" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PRETTY",
+    "copy-from": "PRETTY",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "BEAUTIFUL",
+    "copy-from": "BEAUTIFUL",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "BEAUTIFUL2",
+    "copy-from": "BEAUTIFUL2",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "BEAUTIFUL3",
+    "copy-from": "BEAUTIFUL3",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ], "changes_to": [ "SENTINEL_BEAUTY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NO_THIRST",
+    "copy-from": "NO_THIRST",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ], "threshreq": [ "SUPER_SOLDIER_THRESH" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ACIDPROOF",
+    "copy-from": "ACIDPROOF",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ], "threshreq": [ "SUPER_SOLDIER_THRESH" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PYROMANIA",
+    "copy-from": "PYROMANIA",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "TOUGH_FEET",
+    "copy-from": "TOUGH_FEET",
+    "extend": { "category": [ "SUPER_SOLDIER_CATEGORY" ] }
+  },
+  {
+    "id": "iv_mutagen_sentinel",
+    "copy-from": "iv_mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "sentinel serum" },
+    "description": "A super-concentrated mutagen that looks like a mixture of bodily fluids and gunpowder.  You need a syringe to inject it… if you really want to?",
+    "color": "light_red",
+    "use_action": { "type": "mutagen_iv", "mutation_category": "SUPER_SOLDIER_CATEGORY" }
+  },
+  {
+    "type": "item_group",
+    "id": "mut_iv",
+    "items": [
+      [ "iv_mutagen_sentinel", 2 ]
+    ]
+  }
+
+]

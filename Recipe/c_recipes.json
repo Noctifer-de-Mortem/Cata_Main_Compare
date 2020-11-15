@@ -1,92 +1,7 @@
 [
   {
-    "result": "solar_flashlight",
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_ELECTRONIC",
-    "skill_used": "electronics",
-    "difficulty": 2,
-    "time": "30 m",
-    "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
-    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
-    "components": [ [ [ "flashlight", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
-  },
-  {
-    "result": "wear_solar_flashlight",
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 1,
-    "time": "20 m",
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "solar_flashlight", 1 ] ],
-      [
-        [ "rag", 2 ],
-        [ "leather", 2 ],
-        [ "string_6", 6 ],
-        [ "string_36", 1 ],
-        [ "duct_tape", 10 ],
-        [ "medical_tape", 20 ]
-      ]
-    ]
-  },
-  {
-    "result": "solar_crude_firestarter",
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_ELECTRONIC",
-    "skill_used": "electronics",
-    "difficulty": 2,
-    "time": "15 m",
-    "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
-    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
-    "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
-  },
-  {
-    "result": "gas_slime_scrap",
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_OTHER",
-    "skill_used": "chemistry",
-    "difficulty": 8,
-    "skills_required": [ "firstaid", 1 ],
-    "time": "10 m",
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 7 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "char_smoker", 3 ], [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ] ],
-    "components": [
-      [ [ "gasoline", 1 ] ],
-      [ [ "slime_scrap", 1 ] ],
-      [ [ "bleach", 1 ], [ "oxy_powder", 100 ], [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
-    ]
-  },
-  {
-    "result": "solar_torch",
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_BASHING",
-    "difficulty": 0,
-    "time": "2 m",
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 0 ] ],
-    "components": [
-      [ [ "stick", 1 ], [ "2x4", 1 ], [ "splinter", 1 ], [ "pool_cue", 1 ], [ "torch_done", 1 ] ],
-      [ [ "gas_slime_scrap", 1 ] ],
-      [ [ "rag", 1 ] ]
-    ]
-  },
-  {
     "type": "recipe",
     "result": "bearing",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -103,7 +18,6 @@
   {
     "result": "surcan",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "1 m",
     "components": [
       [ [ "knife_swissarmy", 1 ] ],
@@ -121,14 +35,13 @@
       [ [ "bandana", 1 ] ],
       [ [ "ear_plugs", 1 ] ],
       [ [ "paper", 1 ] ],
-      [ [ "can_food", 2 ] ]
+      [ [ "can_food_unsealed", 2 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "can_forge",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -142,8 +55,8 @@
       [
         [ "metal_tank_little", 1 ],
         [ "sheet_metal_small", 4 ],
-        [ "can_food", 6 ],
-        [ "can_drink", 6 ],
+        [ "can_food_unsealed", 6 ],
+        [ "can_drink_unsealed", 6 ],
         [ "scrap", 12 ]
       ],
       [ [ "clay_lump", 2 ], [ "pebble", 20 ], [ "material_limestone", 100 ], [ "material_sand", 100 ] ],
@@ -153,7 +66,6 @@
   {
     "result": "molded_hammer",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -169,7 +81,6 @@
   {
     "result": "molded_axe",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -184,7 +95,6 @@
   {
     "result": "molded_knife",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -199,7 +109,6 @@
   {
     "result": "molded_shovel",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -214,7 +123,6 @@
   {
     "result": "molded_pot",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -230,7 +138,6 @@
   {
     "result": "charcoal",
     "type": "recipe",
-    "activity_level": "NO_EXERCISE",
     "id_suffix": "simple",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -243,19 +150,42 @@
     "tools": [
       [ [ "surface_heat", 10, "LIST" ] ],
       [
-        [ "can_food", -1 ],
+        [ "can_food_unsealed", -1 ],
         [ "canister_empty", -1 ],
         [ "tinderbox", -1 ],
-        [ "can_drink", -1 ],
+        [ "can_drink_unsealed", -1 ],
         [ "clay_canister", -1 ]
       ]
     ],
     "components": [ [ [ "splinter", 2 ], [ "bone_human", 2 ], [ "bone_tainted", 2 ], [ "pine_bough", 10 ] ] ]
   },
   {
+    "result": "wear_solar_flashlight",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "solar_flashlight", 1 ] ],
+      [
+        [ "rag", 2 ],
+        [ "leather", 2 ],
+        [ "string_6", 6 ],
+        [ "string_36", 1 ],
+        [ "duct_tape", 10 ],
+        [ "medical_tape", 20 ]
+      ]
+    ]
+  },
+  {
     "result": "fishing_string",
     "type": "recipe",
-    "activity_level": "NO_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -268,9 +198,44 @@
     "components": [ [ [ "string_36", 1 ] ], [ [ "fishing_hook_basic", 1 ] ] ]
   },
   {
+    "result": "solar_torch",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "difficulty": 0,
+    "time": "2 m",
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 0 ] ],
+    "components": [
+      [ [ "stick", 1 ], [ "2x4", 1 ], [ "splinter", 1 ], [ "pool_cue", 1 ], [ "torch_done", 1 ] ],
+      [ [ "gas_slime_scrap", 1 ] ],
+      [ [ "rag", 1 ] ]
+    ]
+  },
+  {
+    "result": "gas_slime_scrap",
+    "type": "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 8,
+    "skills_required": [ "firstaid", 1 ],
+    "time": "10 m",
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 7 ] ],
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "char_smoker", 3 ], [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ] ],
+    "components": [
+      [ [ "gasoline", 1 ] ],
+      [ [ "slime_scrap", 1 ] ],
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ], [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ]
+  },
+  {
     "result": "auto_case",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -289,18 +254,11 @@
       { "id": "HAMMER", "level": 1 }
     ],
     "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
-    "components": [
-      [ [ "sheet_metal", 1 ] ],
-      [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "wire", 1 ] ],
-      [ [ "nail", 10 ] ]
-    ]
+    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "spring", 2 ] ], [ [ "wire", 1 ] ], [ [ "nail", 10 ] ] ]
   },
   {
     "result": "fr_22",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -318,17 +276,12 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "22_casing_new", -1 ], [ "22_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "22_casing_new", -1 ], [ "22_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
     "result": "fr_223",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -346,17 +299,12 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "223_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "223_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
     "result": "fr_308",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -374,17 +322,12 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "308_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "308_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
     "result": "fr_9mm",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -402,17 +345,12 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "9mm_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "9mm_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
     "result": "fr_45",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -430,17 +368,12 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "45_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "45_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
     "result": "fr_12",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -464,7 +397,6 @@
   {
     "result": "fr_762",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -488,7 +420,6 @@
   {
     "result": "fr_762R",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -512,7 +443,6 @@
   {
     "result": "survbowpack",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "tailor",
@@ -529,7 +459,6 @@
   {
     "result": "surv_suit",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
@@ -544,8 +473,8 @@
       [ [ "survivor_suit", 1 ] ],
       [ [ "gloves_survivor", 1 ] ],
       [ [ "boots_survivor", 1 ] ],
-      [ [ "hood_survivor", 1 ] ],
-      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ] ],
+      [ [ "hood_rain", 1 ], [ "wetsuit_hood", 1 ], [ "nomex_hood", 1 ] ],
+      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ], [ "wetsuit", 1 ], [ "nomex_suit", 1 ] ],
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
       [ [ "duct_tape", 150 ] ],
@@ -557,7 +486,6 @@
   {
     "result": "surv_armor_suit",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
@@ -573,8 +501,8 @@
       [ [ "hsurvivor_suit", 1 ] ],
       [ [ "gloves_hsurvivor", 1 ] ],
       [ [ "boots_hsurvivor", 1 ] ],
-      [ [ "hood_survivor", 1 ] ],
-      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ] ],
+      [ [ "hood_rain", 1 ], [ "wetsuit_hood", 1 ], [ "nomex_hood", 1 ] ],
+      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ], [ "wetsuit", 1 ], [ "nomex_suit", 1 ] ],
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "kevlar_plate", 12 ] ],
@@ -585,9 +513,8 @@
   {
     "result": "surv_223_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -608,9 +535,8 @@
   {
     "result": "surv_762_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -631,9 +557,8 @@
   {
     "result": "surv_762R_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -654,9 +579,8 @@
   {
     "result": "surv_308_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -677,9 +601,8 @@
   {
     "result": "surv_12_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -700,9 +623,8 @@
   {
     "result": "surv_9mm_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -723,9 +645,8 @@
   {
     "result": "surv_45_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -746,9 +667,8 @@
   {
     "result": "surv_22_mag",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
@@ -769,9 +689,8 @@
   {
     "result": "surv_belt_223",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
@@ -789,9 +708,8 @@
   {
     "result": "surv_belt_308",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
@@ -809,9 +727,8 @@
   {
     "result": "surv_belt_762",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
@@ -829,9 +746,8 @@
   {
     "result": "surv_belt_762R",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
@@ -849,10 +765,9 @@
   {
     "result": "bag_plastic",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "simple bag_plastic",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_CONTAINERS",
+    "subcategory": "CSC_OTHER",
     "skill_used": "fabrication",
     "difficulty": 3,
     "time": "20 m",
@@ -865,7 +780,6 @@
   {
     "result": "sur_pnu_lmg",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -889,7 +803,6 @@
   {
     "result": "ups_rifle",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -916,7 +829,6 @@
   {
     "result": "ups_rifle_crank",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -944,9 +856,8 @@
   {
     "result": "rifle_crank_battery_cell",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "electronics",
     "difficulty": 8,
     "skills_required": [ [ "gun", 2 ], [ "fabrication", 4 ], [ "mechanics", 3 ] ],
@@ -965,7 +876,6 @@
   {
     "result": "surv_battery_pistol",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -989,7 +899,6 @@
   {
     "result": "surv_battery_rifle",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1013,7 +922,6 @@
   {
     "result": "elc_bld",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
@@ -1025,13 +933,25 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SCREW", "level": 1 } ],
-    "using": [ [ "soldering_standard", 10 ] ],
-    "components": [ [ [ "amplifier", 1 ] ], [ [ "power_supply", 1 ] ], [ [ "scrap", 2 ] ], [ [ "duct_tape", 50 ] ], [ [ "spike", 1 ] ] ]
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "components": [
+      [ [ "amplifier", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [
+        [ "rag", 1 ],
+        [ "duct_tape", 50 ],
+        [ "string_6", 2 ],
+        [ "sinew", 100 ],
+        [ "thread", 100 ],
+        [ "plant_fibre", 100 ]
+      ],
+      [ [ "spike", 1 ] ]
+    ]
   },
   {
     "result": "elc_blds",
     "type": "recipe",
-    "activity_level": "NO_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
@@ -1045,7 +965,6 @@
   {
     "result": "surv_full_223",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1067,7 +986,6 @@
   {
     "result": "surv_full_22",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1089,7 +1007,6 @@
   {
     "result": "surv_full_9mm",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1111,7 +1028,6 @@
   {
     "result": "surv_full_45",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1133,7 +1049,6 @@
   {
     "result": "surv_full_308",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1155,7 +1070,6 @@
   {
     "result": "surv_full_762",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1177,7 +1091,6 @@
   {
     "result": "surv_full_12",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1199,7 +1112,6 @@
   {
     "result": "surv_lmg_308",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1221,7 +1133,6 @@
   {
     "result": "surv_lmg_762",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1243,7 +1154,6 @@
   {
     "result": "surv_lmg_223",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1265,7 +1175,6 @@
   {
     "result": "aux_flamer_diesel",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "mechanics",
@@ -1289,7 +1198,6 @@
   {
     "result": "survbow",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1314,7 +1222,6 @@
   {
     "type": "recipe",
     "result": "surv_sniper",
-    "activity_level": "BRISK_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -1337,7 +1244,6 @@
   {
     "result": "surv_laser_sight",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "electronics",
@@ -1360,7 +1266,6 @@
   {
     "result": "flintlock_ammo_mine",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_RIFLE",
     "skill_used": "fabrication",
@@ -1377,7 +1282,6 @@
   {
     "result": "unbio_bladed_weapon",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1395,7 +1299,6 @@
   {
     "result": "unbio_claws_weapon",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1413,7 +1316,6 @@
   {
     "result": "unbio_laser_gun",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1434,7 +1336,6 @@
   {
     "result": "unbio_chain_lightning",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1453,9 +1354,30 @@
     ]
   },
   {
+    "result": "solar_flashlight",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "time": "30 m",
+    "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
+    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
+    "components": [ [ [ "flashlight", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
+  },
+  {
+    "result": "solar_crude_firestarter",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "time": "15 m",
+    "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
+    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
+    "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
+  },
+  {
     "result": "surv_station",
     "type": "recipe",
-    "activity_level": "BRISK_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "electronics",
@@ -1471,7 +1393,6 @@
   {
     "result": "mil_surp_pack_1",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "1 m",
     "components": [
       [ [ "mosin91_30", 1 ] ],
@@ -1485,7 +1406,6 @@
   {
     "result": "mil_surp_pack_2",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "1 m",
     "components": [
       [ [ "sks", 1 ] ],
@@ -1499,7 +1419,6 @@
   {
     "result": "mil_surp_pack_3",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "1 m",
     "components": [
       [ [ "m1903", 1 ] ],
@@ -1513,7 +1432,6 @@
   {
     "result": "parawatch",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "1 m",
     "components": [ [ [ "parabracelets", 1 ] ], [ [ "wristwatch", 1 ] ], [ [ "thermometer", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
@@ -1521,7 +1439,6 @@
   {
     "result": "parabracelets",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "1 m",
     "components": [ [ [ "string_36", 2 ] ] ],
     "flags": [ "BLIND_EASY" ]
@@ -1529,7 +1446,6 @@
   {
     "result": "goggles_welding",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -1548,7 +1464,6 @@
   {
     "result": "unbio_sword_weapon",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1566,7 +1481,6 @@
   {
     "result": "badge_bio_weapon",
     "type": "uncraft",
-    "activity_level": "MODERATE_EXERCISE",
     "time": "1 m",
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "silver_small", 20 ] ] ]
@@ -1574,12 +1488,11 @@
   {
     "result": "flesh_smg",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
+    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "cooking", 4 ] ],
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
@@ -1602,12 +1515,11 @@
   {
     "result": "flesh_rifle",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
+    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "cooking", 4 ] ],
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
@@ -1630,12 +1542,11 @@
   {
     "result": "flesh_lmg",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
+    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "cooking", 4 ] ],
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
@@ -1658,12 +1569,11 @@
   {
     "result": "flesh_shotgun",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "chemistry", 4 ] ],
+    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 4 ], [ "mechanics", 4 ], [ "cooking", 4 ] ],
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
@@ -1686,12 +1596,11 @@
   {
     "result": "flesh_blade",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "firstaid", 4 ], [ "chemistry", 4 ] ],
+    "skills_required": [ [ "firstaid", 4 ], [ "cooking", 4 ] ],
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
@@ -1708,7 +1617,6 @@
   {
     "result": "neo_laser_pistol_ups",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1722,7 +1630,6 @@
   {
     "result": "akro_laser_smg_ups",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1736,7 +1643,6 @@
   {
     "result": "arc_laser_rifle_ups",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1750,7 +1656,6 @@
   {
     "result": "krx_laser_lmg_ups",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1764,7 +1669,6 @@
   {
     "result": "mx_laser_sniper_ups",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1778,7 +1682,6 @@
   {
     "result": "xarm_laser_shotgun_ups",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -1792,7 +1695,6 @@
   {
     "result": "armor_lightplate_surv",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
@@ -1815,7 +1717,6 @@
   {
     "result": "helmet_plate_surv",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "tailor",
@@ -1839,7 +1740,6 @@
   {
     "result": "gloves_plate_surv",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
@@ -1860,7 +1760,6 @@
   {
     "result": "boots_plate_surv",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
@@ -1876,11 +1775,10 @@
   {
     "type": "recipe",
     "result": "iv_mutagen_alpha",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "firstaid", 1 ],
     "difficulty": 10,
     "time": "3 h",
@@ -1900,11 +1798,10 @@
   {
     "type": "recipe",
     "result": "iv_mutagen_elfa",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "firstaid", 1 ],
     "difficulty": 10,
     "time": "3 h",
@@ -1924,11 +1821,10 @@
   {
     "type": "recipe",
     "result": "iv_mutagen_chimera",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "firstaid", 1 ],
     "difficulty": 10,
     "time": "3 h",
@@ -1948,11 +1844,10 @@
   {
     "type": "recipe",
     "result": "iv_mutagen_raptor",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "firstaid", 1 ],
     "difficulty": 10,
     "time": "3 h",
@@ -1971,16 +1866,15 @@
   {
     "type": "recipe",
     "result": "c_hydrogen_gas",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "electronics", 2 ],
     "difficulty": 3,
     "time": "25 m",
     "batch_time_factors": [ 90, 4 ],
     "//": "Low-temperature electrolysis of water to gather hydrogen.  Efficiency range is about 50-60% for this method, figures here are fitting for about 57% or so.",
-    "autolearn": [ [ "chemistry", 5 ], [ "electronics", 3 ] ],
+    "autolearn": [ [ "cooking", 5 ], [ "electronics", 3 ] ],
     "book_learn": [
       [ "adv_chemistry", 3 ],
       [ "textbook_chemistry", 3 ],
@@ -1994,30 +1888,7 @@
   },
   {
     "type": "recipe",
-    "result": "c_hydrogen_gas",
-    "activity_level": "LIGHT_EXERCISE",
-    "id_suffix": "from_bugs",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_CHEMICALS",
-    "skill_used": "chemistry",
-    "skills_required": [ "survival", 2 ],
-    "difficulty": 3,
-    "time": "5 m",
-    "autolearn": [ [ "chemistry", 5 ], [ "survival", 3 ] ],
-    "book_learn": [
-      [ "adv_chemistry", 3 ],
-      [ "textbook_chemistry", 3 ],
-      [ "recipe_labchem", 3 ],
-      [ "textbook_gaswarfare", 4 ],
-      [ "atomic_survival", 4 ]
-    ],
-    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "PRESSURIZATION", "level": 1 } ],
-    "components": [ [ [ "mutant_bug_hydrogen_sacs", 5 ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "thermal_lance_makeshift",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "mechanics",
@@ -2039,7 +1910,6 @@
   {
     "result": "thermal_lance_makeshift",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "2 m",
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "canister_empty", 1 ] ], [ [ "hose", 1 ] ], [ [ "scrap", 1 ] ] ]
@@ -2047,43 +1917,33 @@
   {
     "result": "lmil_armor",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "30 m",
     "skill_used": "fabrication",
     "difficulty": 5,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 20 ] ], [ [ "kevlar_plate", 10 ] ], [ [ "alloy_plate", 2 ] ], [ [ "alloy_sheet", 6 ] ] ]
+    "components": [ [ [ "kevlar_plate", 30 ] ], [ [ "rag", 10 ] ], [ [ "plastic_chunk", 5 ] ] ]
   },
   {
     "result": "mil_armor",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "30 m",
     "skill_used": "fabrication",
     "difficulty": 6,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [
-      [ [ "leather", 20 ] ],
-      [ [ "kevlar_plate", 15 ] ],
-      [ [ "alloy_plate", 4 ] ],
-      [ [ "alloy_sheet", 4 ] ],
-      [ [ "hard_steel_armor", 2 ] ]
-    ]
+    "components": [ [ [ "kevlar_plate", 40 ] ], [ [ "leather", 10 ] ] ]
   },
   {
     "result": "mil_armor",
     "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
     "time": "30 m",
     "skill_used": "fabrication",
     "difficulty": 7,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "kevlar_plate", 50 ] ], [ [ "alloy_plate", 8 ] ], [ [ "hard_steel_armor", 4 ] ] ]
+    "components": [ [ [ "kevlar_plate", 50 ] ], [ [ "hard_steel_armor", 5 ] ] ]
   },
   {
     "result": "flamethrower_surv",
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "mechanics",
@@ -2110,7 +1970,6 @@
   {
     "type": "recipe",
     "result": "lmg_handle",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
@@ -2125,7 +1984,6 @@
   {
     "type": "recipe",
     "result": "22aux",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
@@ -2146,7 +2004,6 @@
   {
     "type": "recipe",
     "result": "9mmaux",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
@@ -2167,7 +2024,6 @@
   {
     "type": "recipe",
     "result": "45aux",
-    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
@@ -2188,7 +2044,6 @@
   {
     "type": "recipe",
     "result": "rebar",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -2204,7 +2059,6 @@
   {
     "type": "recipe",
     "result": "nail",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -2220,7 +2074,6 @@
   {
     "type": "recipe",
     "result": "blade",
-    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "alt_creation",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -2230,36 +2083,13 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ]
-  },
-  {
-    "result": "broken_laserturret",
-    "type": "uncraft",
-    "activity_level": "LIGHT_EXERCISE",
-    "obsolete": false,
-    "skill_used": "electronics",
-    "difficulty": 4,
-    "time": "1 h",
-    "using": [ [ "soldering_standard", 10 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [
-      [ [ "ai_module", 1 ] ],
-      [ [ "gun_module", 1 ] ],
-      [ [ "targeting_module", 1 ] ],
-      [ [ "identification_module", 1 ] ],
-      [ [ "sensor_module", 1 ] ],
-      [ [ "laser_cannon", 1 ] ],
-      [ [ "medium_storage_battery", 1 ] ],
-      [ [ "solar_cell", 4 ] ],
-      [ [ "power_supply", 1 ] ],
-      [ [ "robot_controls", 1 ] ],
-      [ [ "turret_chassis", 1 ] ]
+    "qualities": [
+      { "id": "CUT", "level": 1 }
     ]
   },
   {
     "type": "recipe",
     "result": "molded_crowbar",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",

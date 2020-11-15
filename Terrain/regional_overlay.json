@@ -1,6 +1,7 @@
 [
    {
       "type": "region_overlay",
+      "id": "surv_encamp_overlay",
       "regions": [ "all" ],
       "map_extras": {
         "surv_encamp": {

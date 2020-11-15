@@ -9,8 +9,7 @@
     "purifiable": false,
     "profession": true,
     "fat_to_max_hp": 1.0,
-    "dodge_modifier": 1,
-    "stomach_size_multiplier": 2.5
+    "dodge_modifier": 1
   },
   {
     "type": "mutation",
@@ -85,7 +84,7 @@
     "id": "MARTIAL_ARTS_SURV_COM",
     "name": { "str": "Survivor Combatives" },
     "points": 3,
-    "description": "You have become good at using improvised and hand made weaponry, and to a lesser extent your fists.  You start with the Survivor Combatives style.",
+    "description": "You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. You start with the Survivor Combatives style.",
     "initial_ma_styles": [ "style_surv_com" ],
     "valid": false
   },
@@ -94,7 +93,7 @@
     "id": "MARTIAL_ARTS_BIOJUTSU",
     "name": { "str": "Bionic Combatives" },
     "points": 3,
-    "description": "You start with the Bionic Combatives style.  A modern combat style for the post-modern human.  Nicknamed \"Biojutsu\", Bionic Combatives combines integrated weaponry, armor and augments into an consolidated fighting discipline.",
+    "description": "You start with the Bionic Combatives style. A modern combat style for the post-modern human.  Nicknamed \"Biojutsu\", Bionic Combatives combines integrated weaponry, armor and augments into an consolidated fighting discipline.",
     "initial_ma_styles": [ "style_biojutsu" ],
     "valid": false
   },
