@@ -17,7 +17,7 @@
     "gun_data": {
       "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "motor_oil", "jp8", "avgas" ],
       "skill": "launcher",
-      "ranged_damage": { "damage_type": "heat", "amount": -1 },
+      "ranged_damage": { "damage_type": "stab", "amount": -1 },
       "dispersion": 600,
       "range": 2,
       "durability": 7,
@@ -25,7 +25,6 @@
       "clip_size": 250
     },
     "min_skills": [ [ "weapon", 2 ], [ "launcher", 1 ] ],
-    "install_time": "30 m",
     "flags": [ "FIRE_50", "STR_RELOAD", "PUMP_RAIL_COMPATIBLE", "NON-FOULING" ]
   },
   {
@@ -56,17 +55,8 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
-    "install_time": "20 m",
-    "pocket_data": [
-      {
-        "magazine_well": "250 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "mosquitomag", "sw22mag", "wp22mag", "surv_22_mag" ]
-      }
-    ]
+    "magazine_well": "250 ml",
+    "magazines": [ [ "22", [ "mosquitomag", "sw22mag", "wp22mag", "surv_22_mag" ] ] ]
   },
   {
     "type": "GUNMOD",
@@ -95,17 +85,8 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
-    "install_time": "20 m",
-    "pocket_data": [
-      {
-        "magazine_well": "250 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "glockmag", "glock17_17", "glock17_22", "glockbigmag", "m9mag", "m9bigmag", "usp9mag", "surv_9mm_mag" ]
-      }
-    ]
+    "magazine_well": "250 ml",
+    "magazines": [ [ "9mm", [ "glockmag", "glock17_17", "glock17_22", "glockbigmag", "m9mag", "m9bigmag", "usp9mag", "surv_9mm_mag" ] ] ]
   },
   {
     "type": "GUNMOD",
@@ -134,17 +115,8 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
-    "install_time": "20 m",
-    "pocket_data": [
-      {
-        "magazine_well": "250 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "m1911mag", "m1911bigmag", "usp45mag", "surv_45_mag" ]
-      }
-    ]
+    "magazine_well": "250 ml",
+    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag", "usp45mag", "surv_45_mag" ] ] ]
   },
   {
     "type": "GUNMOD",
@@ -153,7 +125,7 @@
     "location": "sights",
     "sight_dispersion": 20,
     "aim_speed": 7,
-    "description": "A sight made for maximum target acquisition.  It is composed of a small makeshift red dot sight that emits a laser beam at what it targets.  The reticle in the sight allows proper aiming while the laser beam allows for quick target aim.",
+    "description": "A sight made for maximum target acquisition. It is composed of a small makeshift red dot sight that emits a laser beam at what it targets. The reticle in the sight allows proper aiming while the laser beam allows for quick target aim.",
     "weight": "150 g",
     "to_hit": -1,
     "color": "dark_gray",
@@ -178,8 +150,6 @@
     "handling_modifier": 10,
     "description": "A side-mounted handle designed for a custom LMG of some sort, to help in hip fire.  Reduces target acquisition time and perceived recoil, but increases overall dispersion.  Attaching it will hinder the effective use of the weapon's default sights, as well.",
     "weight": "120 g",
-    "volume": "250 ml",
-    "integral_volume": "0 ml",
     "to_hit": -1,
     "color": "dark_gray",
     "symbol": ":",

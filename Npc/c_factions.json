@@ -8,6 +8,7 @@
     "known_by_u": false,
     "size": 30,
     "power": 60,
+    "combat_ability": 90,
     "food_supply": 100000,
     "wealth": 10000000,
     "relations": {
@@ -50,6 +51,7 @@
     "known_by_u": false,
     "size": 10,
     "power": 100,
+    "combat_ability": 120,
     "food_supply": 40000,
     "wealth": 1000,
     "relations": {
@@ -85,6 +87,7 @@
     "known_by_u": false,
     "size": 50,
     "power": 100,
+    "combat_ability": 100,
     "food_supply": 500000,
     "wealth": 10000000,
     "relations": {
@@ -109,6 +112,7 @@
     "known_by_u": false,
     "size": 10,
     "power": 100,
+    "combat_ability": 200,
     "food_supply": 40000,
     "wealth": 1000,
     "relations": {
@@ -144,6 +148,7 @@
     "known_by_u": false,
     "size": 50,
     "power": 100,
+    "combat_ability": 120,
     "food_supply": 0,
     "wealth": 0,
     "relations": {
@@ -169,11 +174,12 @@
     "known_by_u": false,
     "size": 50,
     "power": 100,
+    "combat_ability": 120,
     "food_supply": 0,
     "wealth": 0,
     "relations": {
       "slave_fighter": { "watch your back": true },
-      "your_followers": { "kill on sight": true },
+      "your_followers": { "kill_on_sight": true },
       "slave_fighter_allied": { "kill on sight": true }
     },
     "description": "People who all their lives have seen nothing but fighting in a ring for the amusement of the rich. Devoid of reason they think the cataclysm is but another round, barely able to tell each other apart from the other team."
